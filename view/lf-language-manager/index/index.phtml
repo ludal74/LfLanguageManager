@@ -1,0 +1,38 @@
+<div id="languageSelector">
+    
+    <?php if( is_array( $this->languages ) ) :?>
+    <select id="languageSelect" onchange="window.location= this.options[this.selectedIndex].getAttribute( 'link' )">
+    <option link="" value>
+    <?php 
+    //r�cup�ration de la requete et du router
+    $sm = $this->getHelperPluginManager()->getServiceLocator();
+    $request = $sm->get('request');
+    $router = $sm->get('router');
+
+    // R�cup�ration de la route courante
+    if( $router->match($request) )
+    {
+        $currentRoute = $router->match($request)->getMatchedRouteName();
+        $lastUnderscore = strrpos( $currentRoute, $this->routeLanguageSeparator, -2 );
+        
+        if( $lastUnderscore )
+        {
+            $currentRoute = substr( $currentRoute, 0, $lastUnderscore );
+        }
+    }
+    else
+    {
+        $currentRoute = "";
+    } 
+    
+    foreach( $this->languages as $key => $value )
+    {
+     $selected = ( strtolower( $value ) === strtolower( $this->language ) ) ? ' selected' : '';
+	 echo '<option link="'.$this->url( $currentRoute.$this->routeLanguageSeparator.strtolower( $value ), array( "language" => $key)).'" id="'.$this->escapeHtmlAttr($value).'" '.$selected.' value='.$value.'>'.$this->escapeHtml($key).'</option>';
+    }
+    ?>
+    </select>
+    <?php endif;?>
+    
+</div>
+

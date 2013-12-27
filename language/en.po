@@ -1,0 +1,680 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZendSkeletonApplication\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-06 10:22+0100\n"
+"PO-Revision-Date: 2013-05-06 10:23+0100\n"
+"Last-Translator: Ludovic\n"
+"Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate;getTranslate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../src/Application/Controller/AdressesController.php:70
+msgid "label_adresse"
+msgstr "adress"
+
+#: ../src/Application/Controller/AdressesController.php:71
+msgid "label_code_postal"
+msgstr "zipcode"
+
+#: ../src/Application/Controller/AdressesController.php:72
+msgid "label_pobox"
+msgstr "pobox"
+
+#: ../src/Application/Controller/AdressesController.php:73
+msgid "label_ville"
+msgstr "city"
+
+#: ../src/Application/Controller/AdressesController.php:74
+msgid "label_pays"
+msgstr "country"
+
+#: ../src/Application/Controller/BusinesscardController.php:81
+#, fuzzy
+msgid "button_commander"
+msgstr "cancel order"
+
+#: ../src/Application/Controller/BusinesscardController.php:267
+#: ../src/Application/Controller/BusinesscardController.php:337
+#, fuzzy
+msgid "saisie_vide"
+msgstr "name is empty"
+
+#: ../src/Application/Controller/BusinesscardController.php:279
+#: ../src/Application/Controller/BusinesscardController.php:349
+#, fuzzy
+msgid "saisie_nom_utilisateur_court"
+msgstr "username"
+
+#: ../src/Application/Controller/BusinesscardController.php:280
+#: ../src/Application/Controller/BusinesscardController.php:350
+#, fuzzy
+msgid "saisie_nom_utilisateur_long"
+msgstr "username"
+
+#: ../src/Application/Controller/BusinesscardController.php:1021
+msgid "businesscard"
+msgstr "businesscard"
+
+#: ../src/Application/Controller/HelpController.php:52
+#: ../src/Application/Form/BusinesscardForm.php:43
+#: ../src/Application/Form/HelpForm.php:43
+msgid "prenom"
+msgstr "Lastname"
+
+#: ../src/Application/Controller/HelpController.php:53
+#: ../src/Application/Form/BusinesscardForm.php:33
+#: ../src/Application/Form/HelpForm.php:33
+#: ../view/application/users/index.phtml:21
+msgid "nom"
+msgstr "Firstname"
+
+#: ../src/Application/Controller/HelpController.php:54
+#: ../src/Application/Form/BusinesscardForm.php:63
+#: ../src/Application/Form/HelpForm.php:63
+#: ../view/application/users/index.phtml:24
+msgid "email"
+msgstr "Email"
+
+#: ../src/Application/Controller/HelpController.php:55
+#, fuzzy
+msgid "telephone"
+msgstr "Phone"
+
+#: ../src/Application/Controller/HelpController.php:56
+#: ../src/Application/Form/HelpForm.php:71
+msgid "message"
+msgstr "message"
+
+#: ../src/Application/Controller/HelpController.php:57
+#: ../src/Application/Form/AdressesForm.php:50
+#: ../src/Application/Form/HelpForm.php:88
+msgid "envoyer"
+msgstr "send"
+
+#: ../src/Application/Controller/UsersController.php:67
+#, fuzzy
+msgid "ajouter_utilisateur"
+msgstr "Modify user"
+
+#: ../src/Application/Controller/UsersController.php:131
+#: ../src/Application/Controller/UsersController.php:367
+#: ../view/language_keys.phtml:3
+msgid "nom_utilisateur_existe"
+msgstr "This username already exists"
+
+#: ../src/Application/Controller/UsersController.php:264
+msgid "modifier_utilisateur"
+msgstr "Modify user"
+
+#: ../src/Application/Controller/UsersController.php:376
+#: ../view/language_keys.phtml:4
+msgid "password_error"
+msgstr "password error"
+
+#: ../src/Application/Form/BusinesscardForm.php:53
+#: ../src/Application/Form/HelpForm.php:53
+msgid "phone"
+msgstr "Phone"
+
+#: ../src/Application/Form/BusinesscardForm.php:72
+#: ../src/Application/Form/BusinesscardForm.php:86
+#: ../view/application/orders/index.phtml:25
+msgid "model"
+msgstr "Model"
+
+#: ../src/Application/Form/BusinesscardForm.php:73
+#: ../src/Application/Model/Businesscard.php:375
+msgid "choix_modele"
+msgstr "model selection"
+
+#: ../src/Application/Form/BusinesscardForm.php:87
+#, fuzzy
+msgid "choix_modele_enregistre"
+msgstr "model selection"
+
+#: ../src/Application/Form/BusinesscardForm.php:100
+msgid "adresse_livraison"
+msgstr "delivery adress"
+
+#: ../src/Application/Form/BusinesscardForm.php:101
+msgid "choix_adress_livraison"
+msgstr "delivery adress selection"
+
+#: ../src/Application/Form/BusinesscardForm.php:115
+#: ../view/application/orders/index.phtml:23
+msgid "quantite"
+msgstr "Quantity"
+
+#: ../src/Application/Form/BusinesscardForm.php:116
+#: ../src/Application/Model/Businesscard.php:396
+msgid "choix_quantite"
+msgstr "quantity selection"
+
+#: ../src/Application/Form/BusinesscardForm.php:131
+#, fuzzy
+msgid "quantite_input"
+msgstr "Quantity"
+
+#: ../src/Application/Form/BusinesscardForm.php:155
+msgid "commander"
+msgstr "Order"
+
+#: ../src/Application/Model/Adresses.php:75
+#: ../src/Application/Model/Adresses.php:97
+#: ../src/Application/Model/Businesscard.php:87
+#: ../src/Application/Model/Businesscard.php:109
+#: ../src/Application/Model/Help.php:75 ../src/Application/Model/Help.php:97
+msgid "saisie_nom_vide"
+msgstr "name is empty"
+
+#: ../src/Application/Model/Adresses.php:120
+#: ../src/Application/Model/Businesscard.php:132
+#: ../src/Application/Model/Help.php:120
+msgid "saisie_telephone_vide"
+msgstr "phone is empty"
+
+#: ../src/Application/Model/Adresses.php:133
+#: ../src/Application/Model/Businesscard.php:145
+#: ../src/Application/Model/Help.php:133
+msgid "numerique_seulement"
+msgstr "This field can only contains numeric glyphes"
+
+#: ../src/Application/Model/Adresses.php:158
+#: ../src/Application/Model/Businesscard.php:342
+#: ../src/Application/Model/Help.php:158
+msgid "saisie_email_vide"
+msgstr "email is empty"
+
+#: ../src/Application/Model/Adresses.php:169
+#: ../src/Application/Model/Businesscard.php:353
+#: ../src/Application/Model/Help.php:169
+msgid "saisie_email_invalide"
+msgstr "email is invalid"
+
+#: ../src/Application/Model/Adresses.php:193
+#: ../src/Application/Model/Help.php:193
+#, fuzzy
+msgid "saisie_message_vide"
+msgstr "email is empty"
+
+#: ../src/Application/Model/Businesscard.php:417
+#, fuzzy
+msgid "choix_quantite_utilisateur"
+msgstr "Add user"
+
+#: ../src/Application/Model/Businesscard.php:438
+#, fuzzy
+msgid "choix_adresse_livraison"
+msgstr "delivery adress selection"
+
+#: ../view/language_keys.phtml:2
+msgid "UNKNOW_CUSTOMER"
+msgstr "Unknow customer"
+
+#: ../view/application/adresses/index.phtml:2
+msgid "gestion_des_adresses"
+msgstr "adresses management"
+
+#: ../view/application/adresses/index.phtml:35
+msgid "ajouter_adresse"
+msgstr "add adress"
+
+#: ../view/application/adresses/index.phtml:56
+#: ../view/application/help/index.phtml:87
+#: ../view/application/orders/details.phtml:12
+msgid "annuler"
+msgstr "cancel"
+
+#: ../view/application/businesscard/index.phtml:2
+msgid "CREEZ VOTRE"
+msgstr "CREATE YOUR"
+
+#: ../view/application/businesscard/index.phtml:3
+msgid "CARTE DE VISITE"
+msgstr "BUSINESSCARD"
+
+#: ../view/application/businesscard/index.phtml:7
+msgid "VOTRE COMMANDE"
+msgstr "YOUR ORDER"
+
+#: ../view/application/businesscard/index.phtml:8
+msgid "VOTRE CARTE"
+msgstr "YOUR BUSINESSCARD"
+
+#: ../view/application/businesscard/index.phtml:9
+msgid "ENVOI DE LA COMMANDE"
+msgstr "SEND ORDER"
+
+#: ../view/application/businesscard/index.phtml:10
+msgid "COMMENTAIRES"
+msgstr "COMMENTS"
+
+#: ../view/application/businesscard/index.phtml:140
+#: ../view/application/businesscard/index.phtml:234
+#: ../view/application/models/view.phtml:91
+msgid "champs_obligatoires"
+msgstr "required fields"
+
+#: ../view/application/businesscard/index.phtml:183
+#: ../view/application/models/view.phtml:60
+msgid "recto"
+msgstr "front"
+
+#: ../view/application/businesscard/index.phtml:227
+#: ../view/application/models/view.phtml:104
+msgid "verso"
+msgstr "back"
+
+#: ../view/application/businesscard/index.phtml:238
+msgid "preview_card"
+msgstr "Preview your businessacrd"
+
+#: ../view/application/businesscard/index.phtml:242
+msgid "enregistrer"
+msgstr "Save"
+
+#: ../view/application/businesscard/index.phtml:245
+msgid "save_card_model"
+msgstr "Save your informations"
+
+#: ../view/application/businesscard/index.phtml:267
+msgid "specifications_commande"
+msgstr "order specifications"
+
+#: ../view/application/businesscard/index.phtml:272
+msgid "produit"
+msgstr "product"
+
+#: ../view/application/businesscard/index.phtml:277
+msgid "format"
+msgstr "format"
+
+#: ../view/application/businesscard/index.phtml:282
+msgid "papier"
+msgstr "paper"
+
+#: ../view/application/businesscard/index.phtml:287
+msgid "decoupe_support"
+msgstr "card cutting"
+
+#: ../view/application/businesscard/index.phtml:292
+msgid "finition_support"
+msgstr "card finishing"
+
+#: ../view/application/businesscard/index.phtml:297
+msgid "finition_elements"
+msgstr "texts finishing"
+
+#: ../view/application/businesscard/index.phtml:302
+msgid "couleurs_recto"
+msgstr "front colors"
+
+#: ../view/application/businesscard/index.phtml:307
+msgid "couleurs_verso"
+msgstr "back colors"
+
+#: ../view/application/businesscard/index.phtml:327
+msgid "email_confirmation_texte"
+msgstr "email confirm text"
+
+#: ../view/application/businesscard/index.phtml:328
+msgid "fichier_confirmation_texte"
+msgstr "file confirm text"
+
+#: ../view/application/help/index.phtml:2
+msgid "AIDE"
+msgstr "help"
+
+#: ../view/application/help/index.phtml:5
+msgid "Envoyer un message"
+msgstr "send a message"
+
+#: ../view/application/index/index.phtml:3
+msgid "bienvenu"
+msgstr "welcome to the homepage of"
+
+#: ../view/application/index/index.phtml:8
+msgid "homeText1"
+msgstr ""
+"extranet solution, serving Business, HR and general methods, seeking <span "
+"class=\"pink\"> simple solution </span> <br><span class=\"blue\"> to order "
+"or renew </span> cardsaccess to their employees. <br>"
+
+#: ../view/application/index/index.phtml:11
+msgid "deja_client"
+msgstr "You are already a customer"
+
+#: ../view/application/index/index.phtml:14
+msgid "homeText2"
+msgstr ""
+"access your account by entering the <span class=\"pink\"> login </span> "
+"and<span class=\"blue\"> password </span> provided by your administrator "
+"<br>by clicking on the tab  \"connect\".<br>"
+
+#: ../view/application/index/index.phtml:18
+msgid "pas_client"
+msgstr "you are not yet a customer"
+
+#: ../view/application/index/index.phtml:21
+msgid "homeText3"
+msgstr ""
+"contact our sales department who will be happy to introduce our control "
+"platform and creative business card in detailand create your <span style="
+"\"font-size:14px\"> <br>iP<span class=\"blue\">R</span><span class=\"yellow"
+"\">I</span><span class = \"pink \">N</span>T</span> account "
+
+#: ../view/application/index/index.phtml:25
+msgid "bonjour"
+msgstr "welcome"
+
+#: ../view/application/index/index.phtml:41
+msgid "homeText4"
+msgstr ""
+"all <span team style=\"font-size:14px\"> iP <span class=\"blue\"> R </span> "
+"<span class=\"yellow\"> I </span> <span class = \"pink\" > N </span> T </"
+"span> online welcomes you and is ready to manufacture your card, <br>thank "
+"you for your order and see you soon!"
+
+#: ../view/application/models/index.phtml:2
+#: ../view/application/users/index.phtml:2
+msgid "GESTION"
+msgstr "MANAGEMENT"
+
+#: ../view/application/models/index.phtml:3
+msgid "DES MODELES"
+msgstr "MODELS"
+
+#: ../view/application/models/index.phtml:12
+msgid "Add_new_model"
+msgstr ""
+
+#: ../view/application/models/index.phtml:23
+#: ../view/application/orders/index.phtml:27
+#: ../view/application/users/index.phtml:25
+msgid "date_creation"
+msgstr "Creation date"
+
+#: ../view/application/models/index.phtml:87
+msgid "visualiser"
+msgstr "view"
+
+#: ../view/application/models/view.phtml:2
+msgid "visualisation du modele"
+msgstr "model preview"
+
+#: ../view/application/models/view.phtml:10
+msgid "nom_modele"
+msgstr "model name"
+
+#: ../view/application/models/view.phtml:14
+msgid "informations_dynamiques"
+msgstr "Dynamic informations"
+
+#: ../view/application/models/view.phtml:114
+msgid "preview_model"
+msgstr "Preview "
+
+#: ../view/application/orders/cancel.phtml:2
+#: ../view/application/orders/details.phtml:12
+msgid "annulation_commande"
+msgstr "cancel order"
+
+#: ../view/application/orders/details.phtml:2
+#, fuzzy
+msgid "detail_commande"
+msgstr "Order summary"
+
+#: ../view/application/orders/details.phtml:12
+#: ../view/application/orders/details.phtml:13
+#, fuzzy
+msgid "annuler_commande"
+msgstr "Order summary"
+
+#: ../view/application/orders/details.phtml:12
+msgid "annulation_commande_question"
+msgstr "Are you sure to cancel this order ?"
+
+#: ../view/application/orders/details.phtml:12
+msgid "confirmer"
+msgstr "confirm"
+
+#: ../view/application/orders/details.phtml:17
+#, fuzzy
+msgid "informations_commande"
+msgstr "Order summary"
+
+#: ../view/application/orders/details.phtml:20
+#, fuzzy
+msgid "numero_commande"
+msgstr "Order summary"
+
+#: ../view/application/orders/details.phtml:21
+#, fuzzy
+msgid "date_commande"
+msgstr "Order"
+
+#: ../view/application/orders/details.phtml:21
+#: ../view/application/orders/details.phtml:22
+msgid "a"
+msgstr "at"
+
+#: ../view/application/orders/details.phtml:22
+msgid "delai_retractation_commande"
+msgstr "cancel order deadline"
+
+#: ../view/application/orders/details.phtml:24
+#, fuzzy
+msgid "statut_commande"
+msgstr "Order summary"
+
+#: ../view/application/orders/details.phtml:26
+msgid "donneur_ordre_nom"
+msgstr "originator name"
+
+#: ../view/application/orders/details.phtml:27
+msgid "donneur_ordre_email"
+msgstr "originator email"
+
+#: ../view/application/orders/details.phtml:28
+msgid "donneur_ordre_telephone"
+msgstr "originator phone"
+
+#: ../view/application/orders/details.phtml:29
+#, fuzzy
+msgid "adresse_livraison_commande"
+msgstr "delivery adress"
+
+#: ../view/application/orders/details.phtml:30
+#, fuzzy
+msgid "commentaires_commande"
+msgstr "Order summary"
+
+#: ../view/application/orders/details.phtml:32
+#, fuzzy
+msgid "modele_commande"
+msgstr "Order summary"
+
+#: ../view/application/orders/details.phtml:33
+#, fuzzy
+msgid "quantite_commande"
+msgstr "Order summary"
+
+#: ../view/application/orders/details.phtml:37
+#, fuzzy
+msgid "votre_carte"
+msgstr "Create a businesscard"
+
+#: ../view/application/orders/index.phtml:2
+msgid "GESTION "
+msgstr "MANAGEMENT"
+
+#: ../view/application/orders/index.phtml:3
+#, fuzzy
+msgid "DES COMMANDES"
+msgstr "YOUR ORDER"
+
+#: ../view/application/orders/index.phtml:29
+msgid "statut"
+msgstr "status"
+
+#: ../view/application/orders/index.phtml:30
+#: ../view/application/users/index.phtml:39
+msgid "actions"
+msgstr "Actions"
+
+#: ../view/application/users/addform.phtml:2
+msgid "AJOUTER"
+msgstr "ADD"
+
+#: ../view/application/users/addform.phtml:3
+#: ../view/application/users/modifyform.phtml:3
+msgid "UN UTILISATEUR"
+msgstr "A USER"
+
+#: ../view/application/users/index.phtml:3
+msgid "DES UTILISATEURS"
+msgstr "USERS"
+
+#: ../view/application/users/index.phtml:11
+msgid "Add_user_account"
+msgstr "Add user account"
+
+#: ../view/application/users/index.phtml:22
+msgid "nom_utilisateur"
+msgstr "username"
+
+#: ../view/application/users/index.phtml:23
+msgid "account_type"
+msgstr "Account type"
+
+#: ../view/application/users/modifyform.phtml:2
+msgid "MODIFIER"
+msgstr "MODIFY"
+
+#: ../view/error/index.phtml:1
+msgid "An error occurred"
+msgstr ""
+
+#: ../view/error/index.phtml:8 ../view/error/_404.phtml:53
+msgid "Additional information"
+msgstr ""
+
+#: ../view/error/index.phtml:11 ../view/error/index.phtml:35
+#: ../view/error/_404.phtml:56 ../view/error/_404.phtml:80
+msgid "File"
+msgstr "File"
+
+#: ../view/error/index.phtml:15 ../view/error/index.phtml:39
+#: ../view/error/_404.phtml:60 ../view/error/_404.phtml:84
+msgid "Message"
+msgstr "message"
+
+#: ../view/error/index.phtml:19 ../view/error/index.phtml:43
+#: ../view/error/_404.phtml:64 ../view/error/_404.phtml:88
+msgid "Stack trace"
+msgstr ""
+
+#: ../view/error/index.phtml:29 ../view/error/_404.phtml:74
+msgid "Previous exceptions"
+msgstr ""
+
+#: ../view/error/index.phtml:58 ../view/error/_404.phtml:103
+msgid "No Exception available"
+msgstr ""
+
+#: ../view/error/_404.phtml:1
+msgid "A 404 error occurred"
+msgstr ""
+
+#: ../view/error/_404.phtml:10
+msgid "The requested controller was unable to dispatch the request."
+msgstr ""
+
+#: ../view/error/_404.phtml:13
+msgid ""
+"The requested controller could not be mapped to an existing controller class."
+msgstr ""
+
+#: ../view/error/_404.phtml:16
+msgid "The requested controller was not dispatchable."
+msgstr ""
+
+#: ../view/error/_404.phtml:19
+msgid "The requested URL could not be matched by routing."
+msgstr ""
+
+#: ../view/error/_404.phtml:22
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr ""
+
+#: ../view/error/_404.phtml:34
+msgid "Controller"
+msgstr ""
+
+#: ../view/error/_404.phtml:41
+#, php-format
+msgid "resolves to %s"
+msgstr ""
+
+#: ../view/layout/connectedPanel.phtml:11
+msgid "gerer_compte"
+msgstr "Manage accounts"
+
+#: ../view/layout/connectedPanel.phtml:23
+msgid "creer_carte"
+msgstr "Create a businesscard"
+
+#: ../view/layout/connectedPanel.phtml:33
+msgid "vos_commandes"
+msgstr "your orders"
+
+#: ../view/layout/connectedPanel.phtml:42
+msgid "deconnexion"
+msgstr "logout"
+
+#: ../view/layout/connectedPanel.phtml:66
+msgid "gestion_adresses_livraison"
+msgstr "delivery adress management"
+
+#: ../view/layout/connectedPanel.phtml:74
+msgid "vos_modeles"
+msgstr "your models"
+
+#: ../view/layout/connectedPanel.phtml:84
+msgid "aide"
+msgstr "help"
+
+#: ../view/layout/connectedPanel.phtml:92
+msgid "acceuil"
+msgstr "home"
+
+#: ../view/layout/connexionPanel.phtml:11
+msgid "login"
+msgstr "login"
+
+#: ../view/layout/connexionPanel.phtml:15
+msgid "password"
+msgstr "password"
+
+#: ../view/layout/connexionPanel.phtml:21
+msgid "Connexion"
+msgstr "connection"
+
+#: ../view/layout/connexionPanel.phtml:37
+msgid "se_connecter"
+msgstr "Connect"
+
+#: ../view/layout/layout.phtml:7
+msgid "P&ocirc;le communication"
+msgstr ""
+
+#: ../view/layout/layout.phtml:119
+msgid "iPrint.ch - Rue Tronchin, 26 - 1202 GENEVE - etc..."
+msgstr "iPrint.ch - Rue Tronchin, 26 - 1202 GENEVE - CH"

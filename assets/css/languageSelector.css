@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+
+#languageSelector
+{
+	float:left;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+#languageSelect
+{
+	width:auto;
+	padding:5px;
+	border:solid 1px white;
+	color:red;
+	font-size:11px;
+	background-color:black;
+	font-weight:bold;
+}
